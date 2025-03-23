@@ -40,4 +40,4 @@ jobs:
             echo "Log level: ${{ inputs.logLevel }}"
             echo "Tag source: ${{ inputs.tag }}"
         name: Workflow inputs
-        if: ${{ github.event_name == "workflow_dispatch" }}
+        if: ${{ github.event_name == 'workflow_dispatch' }}
