@@ -41,6 +41,6 @@ jobs:
   add-summaries:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "### Hello world! :rocket:' >> $GITHUB_STEP_SUMMARY
-      - run: echo "### Love this feature! :medal_sports:' >> $GITHUB_STEP_SUMMARY
-      - run: echo "<h1>Great feature!</h1>' >> $GITHUB_STEP_SUMMARY
+      - run: echo "### Hello world! :rocket:" >> "$GITHUB_STEP_SUMMARY"
+      - run: echo "### Love this feature! :medal_sports:" >> "$GITHUB_STEP_SUMMARY"
+      - run: echo "<h1>Great feature!</h1>" >> "$GITHUB_STEP_SUMMARY"
